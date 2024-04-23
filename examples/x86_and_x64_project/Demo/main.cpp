@@ -16,5 +16,5 @@ int main()
     std::thread thread(wrapperThread);
     thread.join();
 
-	return 0;
+    return 0;
 }
